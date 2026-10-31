@@ -28,7 +28,6 @@ Move only the requested blocks. Preserve their exact text and leave everything e
 - Compare moved blocks against originals exactly.
 - Confirm every block was removed once and inserted once, with no duplicate IDs.
 - Confirm all unrelated content and files remain unchanged.
-- Run available YAML parsing and application-loading checks, including references and file discovery.
 
 Use deterministic comparisons, not visual inspection alone. Fix only errors caused by the move. Report failed or unavailable checks.
 
